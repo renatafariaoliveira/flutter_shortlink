@@ -1,0 +1,36 @@
+name: flutter_shortlink
+description: This application provides a URL shortener.
+publish_to: 'none'
+repository: https://github.com/renatafariaoliveira/flutter_shortlink
+authors:
+  - Renata Oliveira <https://www.linkedin.com/in/renatafariaoliveira/>
+  
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  dartz: ^0.10.0-nullsafety.1
+  flutter_modular: ^3.2.2+1
+  bloc: ^7.0.0
+  google_fonts: ^2.1.0
+  flutter_svg: ^0.22.0
+  flutter_screenutil: ^5.0.0+2
+  carousel_slider: ^4.0.0-nullsafety.0 
+  dio:  ^4.0.0
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: 
+  flutter_modular_test:
+  build_runner:
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
